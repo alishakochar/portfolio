@@ -43,14 +43,26 @@
   
   <style>
     .button {
-    background-color: white
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    background-color: black
     border: none;
-    color: black;
-    padding: 15px 32px;
+    color: white;
     text-align: right;
     text-decoration: none;
     display: inline-block;
     font-size: xx-large;
+    width: 250px;
+    }
+    .button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
     }
     body {
       background-color: black; 
